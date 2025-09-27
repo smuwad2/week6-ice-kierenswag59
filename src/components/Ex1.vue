@@ -4,10 +4,10 @@
         // challenge: use array  
         data() {
             return {
-                fruit1: 'John',
-                fruit2: '123456',
-                fruit3: 'Lol',
-                fruits: ["cake","pineaplle","dinosaur"]
+                fruit1: 'cake',
+                fruit2: 'pineapple',
+                fruit3: 'dinosaur',
+                fruits: ["cake","pineapple","dinosaur"]
             }
         },
     }
