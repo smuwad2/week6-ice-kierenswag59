@@ -2,6 +2,14 @@
     export default { 
         // Add Code Here
         // challenge: use array  
+        data() {
+            return {
+                fruit1: 'John',
+                fruit2: '123456',
+                fruit3: 'Lol',
+                fruits: ["cake","pineaplle","dinosaur"]
+            }
+        },
     }
 </script>
 
@@ -11,8 +19,14 @@
         {{ fruit1 }} <input type="radio" name="fruit">
         {{ fruit2 }} <input type="radio" name="fruit">
         {{ fruit3 }} <input type="radio" name="fruit">
+        <br>
+        <span v-for="fruit in fruits">
+
+            {{ fruit }} <input type="radio" name="fruit">
+        </span>
     </div>
 </template>
+
 
 <style scoped>
 </style>
